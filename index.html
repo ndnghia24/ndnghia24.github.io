@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test</title>
-  <link rel="icon" href="https://i.ibb.co/FhHCTjy/seperator.png">
-  <meta http-equiv="refresh" content="0; url=extension://acaeafediijmccnjlokgcdiojiljfpbe/sidepanel.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Example</title>
+    <script>
+        // Redirect to the extension URL
+        window.onload = function() {
+            window.location.href = "extension://acaeafediijmccnjlokgcdiojiljfpbe/sidepanel.html";
+        };
+    </script>
 </head>
 <body>
-  <h1>Web!</h1>
+    <h1>Redirecting...</h1>
 </body>
 </html>
